@@ -66,6 +66,12 @@ public class UI extends PApplet
             Resistor.add(resistors);
         }
 	}
+
+	public void printResistors() {
+        for (Resistor resistors : Resistor) {
+            System.out.println(resistors);
+		}
+	}
 	
 	public void draw()
 	{	
